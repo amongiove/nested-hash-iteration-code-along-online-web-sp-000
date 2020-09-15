@@ -22,6 +22,7 @@ def remove_strawberry(contacts)
           flavor == " "
         end
       end
+      return favorite_ice_cream_flavors
     end
   end    
 end
