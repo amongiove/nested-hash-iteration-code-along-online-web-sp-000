@@ -18,8 +18,8 @@ def remove_strawberry(contacts)
   contacts["Freddy Mercury"].each do |key|
     if key == "favorite_ice_cream_flavors"
       favorite_ice_cream_flavors.each do |flavor|
-        if flavor == "strawberry"
-          flavor == " "
+        if flavor.include? "strawberry"
+          favorite_ice_cream_flavors.reject{strawberry}
         end
       end
       return favorite_ice_cream_flavors
