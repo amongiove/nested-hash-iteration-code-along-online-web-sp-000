@@ -23,7 +23,6 @@ def remove_strawberry(contacts)
             delete! if flavor == "strawberry"
           end
         end
-        end
       end
     end
   end
