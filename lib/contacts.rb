@@ -22,7 +22,7 @@ def remove_strawberry(contacts)
           value.each do |flavor|
             if flavor == "strawberry"
               "#{attribute}".delete("#{flavor})
-              
+
             end
           end
         end
