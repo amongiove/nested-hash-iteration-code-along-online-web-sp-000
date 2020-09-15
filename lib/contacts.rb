@@ -24,5 +24,5 @@ def remove_strawberry(contacts)
       end
       return favorite_ice_cream_flavors
     end
-  end    
+  end
 end
