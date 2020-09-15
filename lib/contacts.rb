@@ -20,5 +20,5 @@ def remove_strawberry(contacts)
       favorite_ice_cream_flavors.reject{|flavor| flavor=="strawberry"}
     end
   end
-  return favorite_ice_cream_flavors
+  return contacts["Freddy Mercury"][favorite_ice_cream_flavors]
 end
